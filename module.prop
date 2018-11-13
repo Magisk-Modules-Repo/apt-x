@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=apt-x
+name=APTX for Android Oreo 8.1
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=noname8964 @ github.com
+description=Add APTX libraries to system. Adroid 8+ should work.
 minMagisk=17000

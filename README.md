@@ -1,7 +1,14 @@
-# Magisk Module Template
+# APTX for Android Oreo
 
-**Update `README.md` if you want to submit your module to the online repo!** This `README.md` will be shown in a Webview dialog when a user taps your module in Magisk Manager, so make sure to place some information / changelog / notes here.
+**This module is useless if you don't have any aptx supported headphones!**
 
-If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
+After Oreo, system should support aptx/HD natively. But this will incur additional licensing fees, so such as Nexus5/6p will not get support for aptx/HD.
 
-For more information about modules and repos, please check the [official documentation](https://topjohnwu.github.io/Magisk/)
+*All these libraries extracted from OxygenOS 5.1.5 from OnePlus.*
+
+## Requirements
+- Android 8+
+- arm64 system
+
+## Changelog
+- v1.0 inital release
