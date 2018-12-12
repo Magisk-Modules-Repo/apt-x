@@ -61,8 +61,8 @@ api_level_arch_detect
 
 # You can get the Android API version from $API, the CPU architecture from $ARCH
 # Useful if you are creating Android version / platform dependent mods
-if [ $API != 26 ] && [ $API != 27 ]; then
-  abort "Only support Oreo"
+if [ $API -lt 26 ]; then
+  abort "Only support Oreo/Pie"
 fi
 
 if [ $ARCH != "arm64" ]; then
