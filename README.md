@@ -4,7 +4,9 @@
 
 After Oreo, system should support aptx/HD natively. But this will incur additional licensing fees, so such as Nexus5/6p will not get support for aptx/HD.
 
-*All these libraries extracted from OxygenOS 5.1.5 from OnePlus.*
+Upgrade libraries from Pie, tested them on Oreo 8.1 and works fine.
+
+*All these libraries extracted from OxygenOS 9.0.2 from OnePlus.*
 
 ## Requirements
 - Android 8+
@@ -12,3 +14,4 @@ After Oreo, system should support aptx/HD natively. But this will incur addition
 
 ## Changelog
 - v1.0 inital release
+- v1.1 update pie libraries
