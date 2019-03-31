@@ -51,14 +51,6 @@ mount_partitions
 # Detect version and architecture
 api_level_arch_detect
 
-if [ $API -lt 26 ]; then
-  abort "Only support Oreo/Pie"
-fi
-
-if [ $ARCH != "arm64" ]; then
-  abort "Only support arm64 devices"
-fi
-
 # Setup busybox and binaries
 $BOOTMODE && boot_actions || recovery_actions
 

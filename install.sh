@@ -132,6 +132,14 @@ print_modname() {
 on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
+  if [ $API -lt 26 ]; then
+    abort "Only support Oreo/Pie"
+  fi
+
+  if [ $ARCH != "arm64" ]; then
+    abort "Only support arm64 devices"
+  fi
+
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 }
